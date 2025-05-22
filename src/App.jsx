@@ -8,9 +8,10 @@ function App() {
     <DataContext>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/createArticle" element={<Dummy />}></Route>
-        <Route path="/genarateArticle" element={<Dummy />}></Route>
-        <Route path="/keyword" element={<Dummy />}></Route>
+        <Route path="/general-articles" element={<Dummy />}></Route>
+        <Route path="/published-articles" element={<Dummy />}></Route>
+        <Route path="/archived-articles" element={<Dummy />}></Route>
+        <Route path="/scheduled-articles" element={<Dummy />}></Route>
       </Routes>
     </DataContext>
   );
